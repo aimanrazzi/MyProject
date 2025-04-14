@@ -81,7 +81,8 @@ fig.tight_layout()
 plt.show()
 ```
 ### Results
-![](./images/skill%20demand.png) *Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each in Malaysia.*
+![](./images/skill%20demand.png) 
+*Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each in Malaysia.*
 
 ### Insights
 
@@ -122,7 +123,8 @@ for i in range(5):
         plt.text(11, df_plot.iloc[-1, i], df_plot.columns[i])
 ```
 ### Results
-![](./images/skill%20trend.png) *Bar graph visualizing the trending top skills for data analysts in Malaysia in 2023.*
+![](./images/skill%20trend.png) 
+*Bar graph visualizing the trending top skills for data analysts in Malaysia in 2023.*
 
 ### Insights
 
@@ -150,7 +152,8 @@ plt.xlim(0, 200000)
 plt.show()
 ```
 ### Results
-![](./images/boxplot.png) *Box plot visualizing the salary distributions for the top 6 data job titles in Malaysia.*
+![](./images/boxplot.png) 
+*Box plot visualizing the salary distributions for the top 6 data job titles in Malaysia.*
 
 ### Insights 
 
@@ -191,7 +194,8 @@ ax[1].xaxis.set_major_formatter(plt.FuncFormatter(lambda x, pos: f'{int(x/1000)}
 fig.tight_layout()
 ```
 ### Results 
-![](./images/barhchart.png)*Separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in Malaysia.*
+![](./images/barhchart.png)
+*Separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in Malaysia.*
 
 ### Insights
 
@@ -244,7 +248,8 @@ plt.show()
 ```
 
 ### Results
-![](./images/scatterplot.png)*A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in Malaysia with color labels for technology.*
+![](./images/scatterplot.png)
+*A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in Malaysia with color labels for technology.*
 
 ### Insights
 
